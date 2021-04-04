@@ -3,7 +3,6 @@ import { SECOND } from "../../../shared/constants";
 import { launchApp } from "../../essential/apps";
 import { internal } from "../../services/internals/Internal";
 import { LindowsLoadingBar, LindowsLogo, LindowsWarper, LindowsWatermarks } from "./BootLindow";
-import "./BootLindows.scss";
 
 export interface BootProps {
   next: () => void;
