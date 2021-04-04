@@ -2,6 +2,7 @@ import React from "react";
 import { UAParser } from "ua-parser-js";
 import { Keypress } from "../../essential/constants/Keypress";
 import Axios from "axios";
+import { IP, IIPResponse } from "../../../shared/ApiUsersRequestsResponds";
 import {
   BiosStyled,
   BiosTop,
@@ -25,7 +26,6 @@ import {
 import { inIframe } from "../../utils/util";
 import { BiosTermsAndPolicy } from "./TermsAndPolicy";
 import { internal } from "../../services/internals/Internal";
-import { IIPResponse, IP } from "../../../shared/interfaces";
 
 interface IBIOSProps {
   next: () => void;
